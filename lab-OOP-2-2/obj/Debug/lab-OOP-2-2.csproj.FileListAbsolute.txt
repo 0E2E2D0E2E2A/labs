@@ -1,0 +1,8 @@
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\bin\Debug\lab-OOP-2-2.exe.config
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\bin\Debug\lab-OOP-2-2.exe
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\bin\Debug\lab-OOP-2-2.pdb
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\obj\Debug\lab-OOP-2-2.csproj.AssemblyReference.cache
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\obj\Debug\lab-OOP-2-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\obj\Debug\lab-OOP-2-2.csproj.CoreCompileInputs.cache
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\obj\Debug\lab-OOP-2-2.exe
+C:\Users\Никита\source\repos\lab-OOP-2-2\lab-OOP-2-2\obj\Debug\lab-OOP-2-2.pdb
