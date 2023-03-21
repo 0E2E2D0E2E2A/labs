@@ -14,7 +14,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
-            <RowDefinition Height="67"/>
+            <RowDefinition Height="60.04"/>
             <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -24,7 +24,7 @@
             <ColumnDefinition Width="349*"/>
 
         </Grid.ColumnDefinitions>
-        <DataGrid Name="dataGrid" AutoGenerateColumns="False" Grid.ColumnSpan="2" Margin="0,0,0,62" Grid.RowSpan="2">
+        <DataGrid Name="dataGrid" AutoGenerateColumns="False" Grid.ColumnSpan="2" Margin="0,0,0,4" MouseUp="dataGrid_MouseUp" Loaded="dataGrid_Loaded">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name" Width="120" MinWidth="100" Binding="{Binding Name}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Power" Width="120" MinWidth="100" Binding="{Binding Power}"></DataGridTextColumn>
@@ -33,11 +33,11 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <TextBox x:Name="textBox_Name" Grid.Column="2" Margin="0,84,65,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" RenderTransformOrigin="0.5,0.5" FontFamily="Times New Roman" FontSize="30" HorizontalAlignment="Right" Width="220"/>
-        <TextBox x:Name="textBox_Power" Grid.Column="2" Margin="0,159,65,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" FontFamily="Times New Roman" FontSize="30" HorizontalAlignment="Right" Width="220"/>
-        <TextBox x:Name="textBox_Volume" Grid.Column="2" HorizontalAlignment="Right" Margin="0,238,65,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="39" FontSize="30" FontFamily="Times New Roman"/>
+        <TextBox x:Name="textBox_Name" Grid.Column="2" Margin="0,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" RenderTransformOrigin="0.5,0.5" FontFamily="Times New Roman" FontSize="30" HorizontalAlignment="Center" Width="220"/>
+        <TextBox x:Name="textBox_Power" Grid.Column="2" Margin="0,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" FontFamily="Times New Roman" FontSize="30" HorizontalAlignment="Center" Width="220"/>
+        <TextBox x:Name="textBox_Volume" Grid.Column="2" HorizontalAlignment="Center" Margin="0,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="39" FontSize="30" FontFamily="Times New Roman"/>
         <Label Grid.Column="2" Content="Name" Margin="0,57,202,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Height="27" HorizontalAlignment="Right" Width="95"/>
-        <TextBox x:Name="textBox_Color" Grid.Column="2" HorizontalAlignment="Right" Margin="0,320,65,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="39" FontSize="30" FontFamily="Times New Roman"/>
+        <TextBox x:Name="textBox_Color" Grid.Column="2" HorizontalAlignment="Center" Margin="0,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Height="39" FontSize="30" FontFamily="Times New Roman"/>
         <Label Grid.Column="2" Content="Power" Margin="0,132,202,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Height="27" HorizontalAlignment="Right" Width="95"/>
         <Label Grid.Column="2" Content="Color" Margin="0,293,202,0" FontFamily="Times New Roman" FontSize="18" HorizontalAlignment="Right" Width="95" Height="27" VerticalAlignment="Top"/>
         <Button x:Name="add_btn_Click_1" Grid.Column="1" Content="Add" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Add_btn_Click_1_Click" Height="60" Width="270" Grid.Row="1" Background="#FF218D01"/>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
 namespace WpfApp2
 {
@@ -28,12 +30,12 @@ namespace WpfApp2
         public string Color { get; set; }
         
 
-        public electronicKettle(string name, string power, string volume, string color)
+        public electronicKettle(string Name, string Power, string Volume, string Color)
         {
-            this.Name = name;
-            this.Power = power;
-            this.Volume = volume;
-            this.Color = color;
+            this.Name = Name;
+            this.Power = Power;
+            this.Volume = Volume;
+            this.Color = Color;
         }
     }
 
@@ -44,10 +46,17 @@ namespace WpfApp2
         public MainWindow()
         {
             InitializeComponent();
+        }
 
-            items = new ObservableCollection<electronicKettle>();
-
+        private void dataGrid_Loaded(object sender, RoutedEventArgs e)
+        {
+            items = new ObservableCollection<electronicKettle>(); 
             dataGrid.ItemsSource = items;
+
+            items.Add(new electronicKettle("name1", "power1", "volume1", "color1"));
+            items.Add(new electronicKettle("name2", "power2", "volume2", "color2"));
+            items.Add(new electronicKettle("name3", "power3", "volume3", "color3"));
+            items.Add(new electronicKettle("name4", "power4", "volume4", "color4"));
         }
 
         private void Add_btn_Click_1_Click(object sender, RoutedEventArgs e)
@@ -99,5 +108,26 @@ namespace WpfApp2
                 MessageBox.Show("Ошибка! Вы не выбрали элемент, который нужно удалить");
             }
         }
+
+        private void dataGrid_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            var items = dataGrid.SelectedItem as electronicKettle;
+
+            //DataRowView data = (DataRowView)dataGrid.SelectedItems[0];
+            //textBox_Name.Text = data.ToString();
+
+            try
+            {
+                textBox_Name.Text = items.Name;
+                textBox_Power.Text = items.Power;
+                textBox_Volume.Text = items.Volume;
+                textBox_Color.Text = items.Color;
+            }
+            catch (NullReferenceException)
+            {
+                MessageBox.Show("Null");
+            }
+        }
+
     }
 }
