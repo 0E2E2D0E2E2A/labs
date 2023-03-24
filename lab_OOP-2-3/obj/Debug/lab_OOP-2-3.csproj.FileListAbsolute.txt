@@ -1,0 +1,11 @@
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\bin\Debug\lab_OOP-2-3.exe.config
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\bin\Debug\lab_OOP-2-3.exe
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\bin\Debug\lab_OOP-2-3.pdb
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP-2-3.csproj.AssemblyReference.cache
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP-2-3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP_2_3.Form1.resources
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP_2_3.Properties.Resources.resources
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP-2-3.csproj.GenerateResource.cache
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP-2-3.csproj.CoreCompileInputs.cache
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP-2-3.exe
+C:\Users\Никита\source\repos\lab_OOP-2-3\lab_OOP-2-3\obj\Debug\lab_OOP-2-3.pdb
