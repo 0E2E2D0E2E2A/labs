@@ -26,10 +26,35 @@ namespace lab_OOP_2_3_Final
         ManualResetEvent _shutdownEvent = new ManualResetEvent(false);
         ManualResetEvent _pauseEvent = new ManualResetEvent(true);
 
+        private void Test(int[] array, out int k) // проверка на отсортированность массива, если отсортирован по возрастанию, то будет обходить цикл стороной
+        {
+            k = 0;
+            for (int i = 0; i < array.Length-1; i++)
+            {
+                if (array[i] < array[i+1])
+                {
+                    k++;
+                }
+            }
+        }
+
         void ChangeSort()
         {
+            int l = 0;
             for (int i = 0; i < array1.Length; i++)
             {
+                Test(array1, out l);
+
+                if (l != int.Parse(textBox_Random.Text))
+                {
+                    for (int k = 0; k < array1.Length; k++)
+                    {
+                        textBox_ChangeSort.Text += array1[k].ToString() + " ";
+                        
+                    }
+                    textBox_ChangeSort.Clear();
+                }
+
                 for (int j = 0; j < array1.Length - 1 - i; j++)
                 {
                     if (array1[j] > array1[j + 1])
@@ -39,10 +64,10 @@ namespace lab_OOP_2_3_Final
                         array1[j + 1] = temp;
                     }
                     //Form.Invoke() - этот метод выполняет указанный делегат в том потоке, в котором была создана форма.
-                    this.Invoke(new MethodInvoker(() =>
-                    {
-                        textBox_ChangeSort.Text = array1[i + 1].ToString();
-                    }));
+                    //this.Invoke(new MethodInvoker(() =>
+                    //{
+                    //    textBox_ChangeSort.Text = array1[i + 1].ToString();
+                    //}));
                     
                 }
             }
@@ -50,8 +75,23 @@ namespace lab_OOP_2_3_Final
 
         void ChoiceSort()
         {
+            int l = 0;
+
             for (int i = 0; i < array2.Length; i++)
             {
+                Test(array2, out l);
+
+                if (l != int.Parse(textBox_Random.Text))
+                {
+                    for (int k = 0; k < array2.Length; k++)
+                    {
+                        textBox_ChoiceSort.Text += array2[k].ToString() + " ";
+                      
+                        
+                    }
+                    textBox_ChoiceSort.Clear();
+                }
+
                 int indMin = i;
                 int min = array2[indMin];
 
@@ -66,21 +106,28 @@ namespace lab_OOP_2_3_Final
                     array2[i] = min;
 
                     //Form.Invoke() - этот метод выполняет указанный делегат в том потоке, в котором была создана форма.
-                    this.Invoke(new MethodInvoker(() =>
-                    {
-                        textBox_ChoiceSort.Text = array2[i].ToString();
-                    }));
-
-                    
-
                 }
             }
         }
 
         void InsertSort()
         {
+            int l = 0;
+
             for (int i = 1; i < array3.Length; i++)
             {
+                Test(array3, out l);
+
+                if (l != int.Parse(textBox_Random.Text))
+                {
+                    for (int k = 0; k < array3.Length; k++)
+                    {
+                        textBox_InsertSort.Text += array3[k].ToString() + " ";
+                        
+                    }
+                    textBox_InsertSort.Clear();
+                }
+
                 int elem = array3[i];
                 int pos = 0;
 
@@ -90,10 +137,10 @@ namespace lab_OOP_2_3_Final
                 array3[pos] = elem;
 
                 //Form.Invoke() - этот метод выполняет указанный делегат в том потоке, в котором была создана форма.
-                this.Invoke(new MethodInvoker(() =>
-                {
-                    textBox_InsertSort.Text = array3[i].ToString();
-                }));
+                //this.Invoke(new MethodInvoker(() =>
+                //{
+                    
+                //}));
             }
         }
 
@@ -110,7 +157,7 @@ namespace lab_OOP_2_3_Final
                 else
                 {
                     backgroundWorker1.ReportProgress(i);
-                    Thread.Sleep(10);
+                    Thread.Sleep(1);
 
                     ChangeSort();
                     ChoiceSort();
@@ -139,7 +186,7 @@ namespace lab_OOP_2_3_Final
             }
         }
 
-        
+    
 
         private void btn_Generation_Click(object sender, EventArgs e)
         {
@@ -210,7 +257,7 @@ namespace lab_OOP_2_3_Final
                 _pauseEvent.WaitOne(Timeout.Infinite);
             }
 
-            //_pauseEvent.Reset();
+            _pauseEvent.Reset();
             
         }
 
@@ -225,8 +272,8 @@ namespace lab_OOP_2_3_Final
             threadPause = new Thread(Pause);
             threadPause.Start();
 
-            if (PauseFlag == true) 
-            {  
+            if (PauseFlag == true)
+            { 
                 _pauseEvent.Reset();
                 PauseFlag = false;
             }
