@@ -1,0 +1,15 @@
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\bin\Debug\net7.0\Lab-OOP-2-5.exe
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\bin\Debug\net7.0\Lab-OOP-2-5.deps.json
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\bin\Debug\net7.0\Lab-OOP-2-5.runtimeconfig.json
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\bin\Debug\net7.0\Lab-OOP-2-5.dll
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\bin\Debug\net7.0\Lab-OOP-2-5.pdb
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.csproj.AssemblyReference.cache
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.AssemblyInfo.cs
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.dll
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\refint\Lab-OOP-2-5.dll
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.pdb
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\Lab-OOP-2-5.genruntimeconfig.cache
+C:\Users\nikit\source\repos\Lab-OOP-2-5\Lab-OOP-2-5\obj\Debug\net7.0\ref\Lab-OOP-2-5.dll
