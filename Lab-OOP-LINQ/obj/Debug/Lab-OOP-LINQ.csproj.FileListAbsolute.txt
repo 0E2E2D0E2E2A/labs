@@ -1,0 +1,16 @@
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\bin\Debug\Lab-OOP-LINQ.exe.config
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\bin\Debug\Lab-OOP-LINQ.exe
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\bin\Debug\Lab-OOP-LINQ.pdb
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.csproj.AssemblyReference.cache
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.csproj.SuggestedBindingRedirects.cache
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.exe
+C:\Users\Никита\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.pdb
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\bin\Debug\Lab-OOP-LINQ.exe.config
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\bin\Debug\Lab-OOP-LINQ.exe
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\bin\Debug\Lab-OOP-LINQ.pdb
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.csproj.AssemblyReference.cache
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.csproj.SuggestedBindingRedirects.cache
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.exe
+C:\Users\nikit\source\repos\Lab-OOP-LINQ\Lab-OOP-LINQ\obj\Debug\Lab-OOP-LINQ.pdb
